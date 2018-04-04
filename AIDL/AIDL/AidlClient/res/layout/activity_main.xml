@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   <EditText 
+       android:id="@+id/input1"
+       android:inputType="number"
+       android:background="@android:color/holo_orange_dark"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"/>
+   <EditText 
+       android:layout_marginTop="1dp"
+       android:id="@+id/input2"
+       android:inputType="number"
+        android:background="@android:color/holo_orange_dark"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"/>
+   <Button 
+       android:id="@+id/sure"
+       android:text="确认"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"/>
+   <TextView
+       android:id="@+id/result"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+</LinearLayout>
